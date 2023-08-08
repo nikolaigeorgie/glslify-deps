@@ -6,7 +6,7 @@
     "coverage": "istanbul cover test/index.js && http-server coverage/lcov-report/glslify-deps"
   },
   "dependencies": {
-    "@choojs/findup": "^0.2.0",
+    "@choojs/findup": "https://github.com/nikolaigeorgie/findup.git",
     "events": "^3.2.0",
     "glsl-resolve": "0.0.1",
     "glsl-tokenizer": "^2.0.0",
